@@ -16,6 +16,7 @@
 
 package com.example.reply.ui.components
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -49,6 +50,7 @@ fun ReplyEmailThreadItem(
             .fillMaxWidth()
             .padding(16.dp)
             .padding(20.dp)
+            .background(MaterialTheme.colorScheme.background)
     ) {
         Row(modifier = Modifier.fillMaxWidth()) {
             ReplyProfileImage(
